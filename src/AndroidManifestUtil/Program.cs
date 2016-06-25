@@ -18,6 +18,7 @@ namespace AndroidManifestUtil
 
                 Console.WriteLine(
                   @"e.g. AndroidManifestUtil -filename=..\src\MyProject\Properties\AndroidManifest.xml -newversion=1.2.3.4");
+
                 Console.WriteLine(@"Will update the version code in manifest/android:versionCode, and build revision in manifest/android:versionName");
             }
             else
